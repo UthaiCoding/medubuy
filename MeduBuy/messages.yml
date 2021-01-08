@@ -1,0 +1,51 @@
+########################################################
+#                                                      #
+#               MeduBuy version: 1.0                   #
+#             Plugin created by Uthai                  #
+#                                                      #
+#                   Ayuda - Help                       #
+#     Aqui tienes una lista completa de los mensajes   #
+#     del plugin los cuales los he hecho totalmente    #
+#     modificables, el plugin ahora mismo es solamente #
+#     para crear tiendas con carteles siguiendo esta   #
+#     sintaxis:                                        #
+#                                                      #
+#                    [Medubuy]                         #
+#     (cantidad que se le dará al usuario al comprar)  #
+#           (precio que costará el item)               #
+#                  (ID del item)                       #
+#                                                      #
+#					  Ejemplo:                         #
+#                                                      #
+#                    [Medubuy]                         #
+#                        1                             #
+#                       200                            #
+#                       276                            #
+#                                                      #
+#    Una vez están puesto los datos en el cartel dadle #
+#    a enter y se le pondrán los colores al cartel     #
+#    automáticamente y ya estaría funcionando.         #
+#                                                      #
+#                  ¡Importante!                        #
+#    Cualquier duda, bug o problema                    #
+#    contactarme por mi discord Uthai.aSn#7397,        #
+#    recordad que una vez hayáis modificado su config  #
+#    deberéis pones /medubuy reload , para que se      #
+#    guarden los cambios.                              #
+########################################################
+
+messages:
+  crear_cartel: "&8[&3Medu&bbuy&8] &aHas creado el cartel de forma exitosa!"
+  plugin_reload_perms: "&8[&3Medu&bbuy&8] &aEl plugin ha sido actualizado con exito!"
+  plugin_reload_sin_perms: "&8[&3Medu&bbuy&8] &cNo tienes permisos para hacer esto!"
+  eliminar_cartel: "&8[&3Medu&bbuy&8] &aHas &celiminado &ael cartel de forma exitosa!"
+  jugador_no_tiene_suficiente_dinero: "&8[&3Medu&bbuy&8] &cNo tienes suficiente dinero para comprar esto!"
+  inventario_lleno: "&8[&3Medu&bbuy&8] &cTienes el inventario lleno!"
+  compra_exitosa: "&8[&3Medu&bbuy&8] &aHas comprado este item de forma exitosa por %precio% $!"
+
+  
+cartel:
+  line1: "&8[&3Medu&bbuy&8]"
+  line2: "&aCantidad: &e %cantidad%"
+  line3: "&cPrecio: &b%precio%$"
+  line4: "&4ID: &f%material_id%"

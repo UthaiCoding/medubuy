@@ -1,0 +1,7 @@
+main: meduza.plugin.medubuy
+name: MeduBuy
+version: 1.0
+description: Plugin para la tienda de meduza creado por Uthai
+commands:
+  medubuy:
+    description: para ver informacion del plugin
